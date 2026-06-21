@@ -18,6 +18,7 @@ type commands.txt token 1,* %%a and %%b where define explain
 
 ```bat
 @echo off
+setlocal EnableDelayedExpansion
 
 for /f "tokens=1,*" %%a in (file.txt) do (
 
@@ -30,7 +31,7 @@ for /f "tokens=1,*" %%a in (file.txt) do (
     )
 )
 
-echo Command not found
+echo Key not found
 ```
 
 **File.txt:**

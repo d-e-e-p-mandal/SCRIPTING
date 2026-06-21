@@ -1,1 +1,1 @@
-run = I am deep
+run : echo I am deep
