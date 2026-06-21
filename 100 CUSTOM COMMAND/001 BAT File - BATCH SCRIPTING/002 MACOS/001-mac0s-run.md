@@ -37,4 +37,3 @@ chmod +x app
 --------
 
 # Make it look exactly like a command
-
